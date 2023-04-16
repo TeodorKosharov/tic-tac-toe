@@ -1,6 +1,7 @@
 # Tic-Tac-Toe
 
 Tic-Tac-Toe game created with React. <br>
+Deployed on AWS - https://master.d38rw3z1zowy2d.amplifyapp.com/
 
 ## Available Scripts
 
