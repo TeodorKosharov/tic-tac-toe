@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Khand&display=swap');
+
+header {
+    background-color: #673791FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 5vh;
+    background-color: #43235EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

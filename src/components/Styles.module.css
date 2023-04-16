@@ -1,0 +1,121 @@
+h1, h3 {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-family: 'Khand', sans-serif;
+    color: #6D008FFF;
+    font-size: 30px;
+}
+
+input {
+    font-family: 'Caveat', cursive;
+    font-size: 16px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 12px;
+    border: 3px inset blueviolet;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: 'Khand', sans-serif;
+    background-color: blueviolet;
+    color: white;
+    border: 3px inset blueviolet;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playersInfoBox {
+    margin-top: 30px;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gameboardBox {
+    width: 60%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerBox {
+    padding: 5px 50px 5px 50px;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    box-shadow: 2px 2px 29px -11px rgba(139, 0, 232, 1);
+}
+
+.playerBox p, .lighterPlayerBox p {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    font-size: 20px;
+}
+
+.lighterPlayerBox {
+    padding: 5px 50px 5px 50px;
+    border: 2px solid rgba(119, 136, 153, 0.44);
+    border-radius: 12px;
+    opacity: 50%;
+}
+
+.gameboard {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cell {
+    border: 2px solid #8400FFBC;
+    width: 30%;
+    height: 31%;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #4C0075BC;
+}
+
+.cell:hover {
+    background-color: #E8D1FFBC;
+}
+
+.buttonsBox {
+    display: flex;
+    gap: 20px;
+}
